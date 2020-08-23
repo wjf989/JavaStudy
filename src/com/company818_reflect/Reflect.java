@@ -2,8 +2,11 @@ package com.company818_reflect;
 
 import org.junit.Test;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.Properties;
 
 /**
  * * java.lang.Class:是反射的源头。
@@ -62,8 +65,9 @@ public class Reflect {
         Method m1 = clazz.getMethod("show");
         m1.invoke(p);
 
-        Method m2 = clazz.getMethod("display", String.class);
-        m2.invoke(p, "chn");
+        Method m2 = clazz.getDeclaredMethod("display", String.class, Integer.class);
+        m2.setAccessible(true);
+        m2.invoke(p, "chn", 2);
     }
 
     @Test
@@ -73,5 +77,70 @@ public class Reflect {
         System.out.println(clazz);
     }
 
+    //3,如何获取Class的实例（4种）
+    @Test
+    public void test4() throws ClassNotFoundException {
+        //1,调用运行是类本身的.class属性
+        Class<Person> clazz1 = Person.class;
+        System.out.println(clazz1.getName());
 
+        Class<String> clazz2 = String.class;
+        System.out.println(clazz2.getName());
+
+        //2,通过运行时类的对象获取
+        Person p = new Person();
+        Class<? extends Person> clazz3 = p.getClass();
+        System.out.println(clazz3.getName());
+
+        //3,通过class的静态方法获取。通过此方式，体会一下，反射的动态性
+        String className = "com.company818_reflect.Person";
+        Class<?> clazz4 = Class.forName(className);
+        System.out.println(clazz4.getName());
+
+        //4,(了解）通过类的加载器
+        ClassLoader classLoader = this.getClass().getClassLoader();
+        Class<?> clazz5 = classLoader.loadClass(className);
+        System.out.println(clazz5.getName());
+
+        System.out.println(clazz1 == clazz3);//true
+        System.out.println(clazz1 == clazz4);//true
+        System.out.println(clazz1 == clazz5);//true
+    }
+
+    //4,关于类的加载器：ClassLoader
+    @Test
+    public void test5() throws ClassNotFoundException, IOException {
+        ClassLoader loader1 = ClassLoader.getSystemClassLoader();
+        System.out.println(loader1);
+
+        ClassLoader loader2 = loader1.getParent();
+        System.out.println(loader2);
+
+        ClassLoader loader3 = loader2.getParent();
+        System.out.println(loader3);
+
+        Class<Person> clazz1 = Person.class;
+        ClassLoader loader4 = clazz1.getClassLoader();
+        System.out.println(loader4);
+
+        String className = "java.lang.String";
+        Class<?> clazz2 = Class.forName(className);
+        ClassLoader loader5 = clazz2.getClassLoader();
+        System.out.println(loader5);
+
+        //法1：
+        ClassLoader loader = this.getClass().getClassLoader();
+        InputStream is = loader.getResourceAsStream("com/company818_reflect/jdbc.properties");
+        //法2：
+//        FileInputStream is = new FileInputStream(new File("jdbc.properties"));
+
+        Properties pros = new Properties();
+        pros.load(is);
+        String name = pros.getProperty("user");
+        System.out.println(name);
+
+        String password = pros.getProperty("password");
+        System.out.println(password);
+
+    }
 }

@@ -1,6 +1,6 @@
 package com.company818_reflect;
 
-class Person {
+class Person extends Creature<String> implements Comparable, MyInterface {
     public String name;
     private int age;
     int id;
@@ -46,7 +46,7 @@ class Person {
         this.id = id;
     }
 
-    //    @MyAnnotation(value = "abc123")
+    @MyAnnotation(value = "abc123")
     public void show() {
         System.out.println("我是一个人！");
     }
@@ -60,11 +60,12 @@ class Person {
     public String toString() {
         return "Person [name=" + name + ", age=" + age + "]";
     }
-//    @Override
-//    public int compareTo(Object o) {
-//        // TODO Auto-generated method stub
-//        return 0;
-//    }
+
+    @Override
+    public int compareTo(Object o) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
 
     public static void info() {
         System.out.println("中国人！");

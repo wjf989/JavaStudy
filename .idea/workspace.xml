@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e8b45ef-2ce8-4456-a058-70bbbb3a3318" name="Default" comment="Java学习笔记">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company705/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company705/TestFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company710/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/Reflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/ReflectConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/ReflectOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/ReflectProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company818_reflect/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company609/TestAssign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company609/TestAssign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company609/TestSign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company609/TestSign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company612/TestTransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company612/TestTransfer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company619/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company619/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company619/MyDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company619/MyDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company619/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company619/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStudy/com/company619/TestVarPar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStudy/com/company619/TestVarPar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company818_reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company818_reflect/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company818_reflect/Reflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company818_reflect/Reflect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +51,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>”</find>
-      <find></find>
-    </findStrings>
-    <replaceStrings>
-      <replace>&quot;</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -98,36 +87,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.Reflect.test3">
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company710.Sample" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company710.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company705.TestFor" />
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company705.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reflect.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\javaStudy\src\com\company818_reflect" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ReflectOther.test3">
+    <configuration name="ReflectConstructor.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -136,30 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company818_reflect" />
-      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.Reflect" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reflect.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company818_reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company818_reflect" />
-      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.Reflect" />
+      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.ReflectConstructor" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflect.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectConstructor.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaStudy" />
       <extension name="coverage">
         <pattern>
@@ -168,7 +120,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company818_reflect" />
-      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.Reflect" />
+      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.ReflectConstructor" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectOther.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company818_reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company818_reflect" />
+      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.ReflectOther" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectOther.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company818_reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company818_reflect" />
+      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.ReflectOther" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectOther.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company818_reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company818_reflect" />
+      <option name="MAIN_CLASS_NAME" value="com.company818_reflect.ReflectOther" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -176,21 +176,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestFor" />
-      <item itemvalue="Application.Sample" />
-      <item itemvalue="JUnit.Reflect.test1" />
-      <item itemvalue="JUnit.Reflect.test2" />
-      <item itemvalue="JUnit.Reflect.test3" />
+      <item itemvalue="JUnit.ReflectConstructor.test2" />
+      <item itemvalue="JUnit.ReflectConstructor.test3" />
+      <item itemvalue="JUnit.ReflectOther.test1" />
+      <item itemvalue="JUnit.ReflectOther.test2" />
+      <item itemvalue="JUnit.ReflectOther.test3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Reflect.test3" />
-        <item itemvalue="JUnit.Reflect.test2" />
-        <item itemvalue="JUnit.Reflect.test1" />
-        <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.TestFor" />
+        <item itemvalue="JUnit.ReflectOther.test3" />
+        <item itemvalue="JUnit.ReflectOther.test1" />
+        <item itemvalue="JUnit.ReflectOther.test2" />
+        <item itemvalue="JUnit.ReflectConstructor.test3" />
+        <item itemvalue="JUnit.ReflectConstructor.test2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\ZT12477\AppData\Roaming\Subversion</configuration>
@@ -216,18 +219,23 @@
       <workItem from="1594023104103" duration="638000" />
       <workItem from="1594390222451" duration="730000" />
       <workItem from="1594730709276" duration="42000" />
-      <workItem from="1597714992229" duration="4684000" />
+      <workItem from="1597714992229" duration="14272000" />
+      <workItem from="1597903145497" duration="553000" />
+      <workItem from="1597978089474" duration="1735000" />
+      <workItem from="1597979868660" duration="4520000" />
+      <workItem from="1598165115553" duration="339000" />
+      <workItem from="1598165498141" duration="2279000" />
+      <workItem from="1598167965478" duration="879000" />
     </task>
+    <task id="LOCAL-00001" summary="Java学习笔记">
+      <created>1597720318812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597720318813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -243,26 +251,61 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1597718526218">
+    <state x="361" y="74" key="#Notifications" timestamp="1597981515851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1597981515851" />
+    <state x="539" y="107" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1597980991624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="107" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1597980991624" />
+    <state x="2338" y="9" key="CommitChangelistDialog2" timestamp="1597720316913">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597718526218" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1597718526218">
+    <state x="2338" y="9" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597720316913" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1597981217172">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1597981217172" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1598002094275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598002094275" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597731365881" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597764736198" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1598002094275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598002094275" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597731365880" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597764736198" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1598002094275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598002094275" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597731365880" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597764736198" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1598002094275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1598002094275" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597731365880" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597764736198" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1598189314144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1597981553646" />
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598189314144" />
+    <state x="2281" y="148" key="Vcs.Push.Dialog.v2" timestamp="1597720329082">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597718526218" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1597718526218">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state x="2281" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597720329082" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1598189399553">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597718526218" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1597718526218">
-      <screen x="1920" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597718526218" />
-    <state x="2281" y="148" key="Vcs.Push.Dialog.v2" timestamp="1597720243817">
-      <screen x="1920" y="0" width="1536" height="824" />
-    </state>
-    <state x="2281" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597720243817" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1597980379123" />
+    <state x="2381" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1597978341087" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598189399553" />
     <state x="2405" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1597717097450">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
