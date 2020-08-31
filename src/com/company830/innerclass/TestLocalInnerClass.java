@@ -1,5 +1,8 @@
 package com.company830.innerclass;
 
+/**
+ * @author wjf989
+ */
 public class TestLocalInnerClass {
     public static void main(String[] args) {
         OuterClass outer = new OuterClass();
